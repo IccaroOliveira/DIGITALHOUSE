@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(93, 93, 93);
+}
+
+.quadrado{
+    width: 100px;
+    height: 200px;
+    background-color: khaki;
+    border-radius: 10px;
+}
+
+@media (min-wdth: 460px) {
+    
+}
