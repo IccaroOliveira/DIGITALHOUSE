@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="../../css__reset/css_reset.css">
+  <link rel="stylesheet" href="./style.css">
+  <title>DH Flix</title>
+</head>
+
+<body>
+  <header class="container__header__master">
+    <div class="container__header">
+      <section>
+        <a href="./index.html">
+          <img src="../../assets/imgs/logo.svg" alt="Logo do site">
+        </a>
+      </section>
+
+      <section class="menu__section__filmes">
+        <div class="menu__hamburguer">
+          <img src="../../assets/imgs/menu.svg" alt="Imagem do menu">
+        </div>
+
+        <nav class="nav">
+          <ul class="lista__menu">
+            <div>
+              <li class="item__menu">
+                <a href="home">
+                  Home
+                </a>
+              </li>
+            </div>
+
+
+            <li class="item__menu">
+              <a href="itens">
+                Itens
+              </a>
+            </li>
+
+            <li class="item__menu">
+              <a href="sobrenos">
+                Sobre nós
+              </a>
+            </li>
+
+            <li class="item__menu">
+              <a href="../login/index.html" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Login
+              </a>
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      <img src="../../assets/imgs/logo.svg" alt="Logo do site">
+                    </div>
+                    <div class="modal-body">
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">senha</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="submit" class="btn btn-primary">Entrar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="container__image__main">
+      <div class="image__dhflix">
+        <h1>DH Flix</h1>
+        <p>Confira a maior coletânea de filmes que a Digital House tem a te oferecer</p>
+      </div>
+
+      <div>
+        <button class="button__explorer">Explorar</button>
+      </div>
+    </section>
+
+    <section class="container__master__cards__filmes">
+      <h1 id="itens" class="titulo__card__filmes">Itens</h1>
+
+      <div class="master__cards">
+        <div class="card__movies">
+          <div class="card__banner__movies__one"></div>
+
+          <div class="card__description__movies">
+            <h1 class="title__description__movies">Coringa</h1>
+
+            <p>
+              Isolado, intimidado e desconsiderado pela sociedade, o fracassado comediante Arthur Fleck inicia seu caminho como uma mente criminosa após assassinar três homens em pleno metrô.
+            </p>
+
+            <a class="ancora__filmes" href="../detalhes__geral/detalhes__1/index.html">
+              <button class="button__details">Abrir</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="card__movies">
+          <div class="card__banner__movies__two"></div>
+
+          <div class="card__description__movies">
+            <h1 class="title__description__movies">After</h1>
+
+            <p>
+              Tessa Young é uma jovem com uma vida simples, ótimas notas na escola, muitos amigos e um bom namorado. As coisas mudam quando ela conhece um homem atraente.
+            </p>
+
+            <a class="ancora__filmes" href="../detalhes__geral/detalhes__2/index.html">
+              <button class="button__details">Abrir</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="card__movies">
+          <div class="card__banner__movies__three"></div>
+
+          <div class="card__description__movies">
+            <h1 class="title__description__movies">Capitã Marvel</h1>
+
+            <p>
+              Capitã Marvel, parte do exército de elite dos Kree, uma raça alienígena, encontra-se no meio de uma batalha entre seu povo e os Skrulls.
+            </p>
+
+            <a class="ancora__filmes" href="../detalhes__geral/detalhes__3/index.html">
+              <button class="button__details">Abrir</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="card__movies">
+          <div class="card__banner__movies__four"></div>
+
+          <div class="card__description__movies">
+            <h1 class="title__description__movies">Dora</h1>
+
+            <p>
+              A aventureira Dora rapidamente se vê liderando o macaco Botas, o primo Diego, um misterioso habitante da selva, seus pais e um grupo de adolescentes em uma aventura para resolver um mistério impossível por trás de uma cidade perdida de ouro.
+            </p>
+
+            <a class="ancora__filmes" href="../detalhes__geral/detalhes__4/index.html">
+              <button class="button__details">Abrir</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="card__movies">
+          <div class="card__banner__movies__five"></div>
+
+          <div class="card__description__movies">
+            <h1 class="title__description__movies">1917</h1>
+
+            <p>
+              Na Primeira Guerra Mundial, dois soldados britânicos recebem ordens aparentemente impossíveis de cumprir.
+            </p>
+
+            <a class="ancora__filmes" href="../detalhes__geral/detalhes__5/index.html">
+              <button class="button__details">Abrir</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="card__movies">
+          <div class="card__banner__movies__six"></div>
+
+          <div class="card__description__movies">
+            <h1 class="title__description__movies">Thor</h1>
+
+            <p>
+              Como filho de Odin, rei dos deuses nórdicos, Thor logo herdará o trono de Asgard de seu idoso pai.
+            </p>
+
+            <a class="ancora__filmes" href="../detalhes__geral/detalhes__6/index.html">
+              <button class="button__details">Abrir</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer__master">
+    <div class="container__footer">
+      <section class="alunos">
+        <div class="aluno">
+          <p class="title__footer">Ícaro Almeida</p>
+          <p class="description__footer">Responsável pelo desenvolvimento da home </p>
+          <div class="contato">
+            <a href="https://github.com/icaroregis">
+              <img src="../../assets/imgs/git.svg" alt="git">
+            </a>
+            <a href="https://www.linkedin.com/in/icaroregisalmeida/">
+              <img src="../../assets/imgs/linkedin.svg" alt="linkedin">
+            </a>
+          </div>
+        </div>
+
+        <div class="aluno">
+          <p class="title__footer">Guilherme Rocha</p>
+          <p class="description__footer desc__guilherme">Responsável pelo desenvolvimento de páginas de destaque </p>
+          <div class="contato">
+            <a href="https://github.com/Gzao99">
+              <img src="../../assets/imgs/git.svg" alt="git">
+            </a>
+            <a href="https://www.linkedin.com/in/guilherme-rocha-b04637179/">
+              <img src="../../assets/imgs/linkedin.svg" alt="linkedin">
+            </a>
+          </div>
+        </div>
+
+        <div class="aluno">
+          <p class="title__footer">Patrick Turtchin</p>
+          <p class="description__footer">Responsável pelo desenvolvimento do login </p>
+
+          <div class="contato">
+            <a href="https://github.com/patrickturtchin/">
+              <img src="../../assets/imgs/git.svg" alt="git">
+            </a>
+            <a href="https://www.linkedin.com/in/patrickturtchin//">
+              <img src="../../assets/imgs/linkedin.svg " alt="linkedin">
+            </a>
+          </div>
+        </div>
+
+        <div class="aluno">
+          <p class="title__footer">Iccaro Oliveira</p>
+          <p class="description__footer">Responsável pelo desenvolvimento da responsividade </p>
+
+          <div class="contato">
+            <a href="https://github.com/iccarooliveira/">
+              <img src="../../assets/imgs/git.svg" alt="git">
+            </a>
+            <a href="https://www.linkedin.com/in/iccaro-oliveira-98950a208/">
+              <img src="../../assets/imgs/linkedin.svg " alt="linkedin">
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="desenvolvido">
+        <p class="title__footer">Checkpoint 2 desenvolvido em 2022</p>
+      </section>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="../../js/index.js"></script>
+</body>
+
+</html>
