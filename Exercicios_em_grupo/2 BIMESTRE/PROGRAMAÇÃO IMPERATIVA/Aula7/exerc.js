@@ -28,51 +28,51 @@
 let numb1 = 5;
 let numb2 = 2;
 
-    if (numb1 > numb2){
-        console.log ("O maior é "+ numb1)
-    }else {
-        console.log ("o maior é "+ numb2)
-    }
+if (numb1 > numb2) {
+    console.log("O maior é " + numb1)
+} else {
+    console.log("o maior é " + numb2)
+}
 
 //exerc 02
 
-    let nascimento = 2008
+let nascimento = 2008
 
-    if (nascimento <= 2006){
-        console.log ("Você pode votar")
-    }else {
-        console.log("Você não pode votar")
-    }
+if (nascimento <= 2006) {
+    console.log("Você pode votar")
+} else {
+    console.log("Você não pode votar")
+}
 
 //exerc 03
 
-    let senha = 1235
+let senha = 1235
 
-    if (senha === 1234){
-        console.log ( "ACESSO PERMITIDO")
-    }else {
-        console.log ( "ACESSO NEGADO")
-    }
+if (senha === 1234) {
+    console.log("ACESSO PERMITIDO")
+} else {
+    console.log("ACESSO NEGADO")
+}
 
 //exerc 04
 
-    let macas = 13
+let macas = 13
 
-    if (macas <= 12){
-        console.log(("Total a pagar R$: " +macas * 0.30))
-    }else{
-        console.log(("Total a pagar R$: " +macas * 0.25))
-    }
+if (macas <= 12) {
+    console.log(("Total a pagar R$: " + macas * 0.30))
+} else {
+    console.log(("Total a pagar R$: " + macas * 0.25))
+}
 
 // exerc 05
 
 let sexo = 3
 let altura = 1.97
 
-if (sexo === 1){
-    console.log( "O peso ideal para o feminino é: " +((62.1 * altura)-44.7))
-}else if (sexo ===2){
-    console.log( "O peso ideal para o masculino é: "+ ((72.7 * altura)-58))
-}else {
+if (sexo === 1) {
+    console.log("O peso ideal para o feminino é: " + ((62.1 * altura) - 44.7))
+} else if (sexo === 2) {
+    console.log("O peso ideal para o masculino é: " + ((72.7 * altura) - 58))
+} else {
     console.log("Dado invalido")
 }

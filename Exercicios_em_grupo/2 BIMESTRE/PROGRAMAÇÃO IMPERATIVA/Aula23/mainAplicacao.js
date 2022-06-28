@@ -54,6 +54,6 @@ function porcB(bom) {
     return (qtde / bom.length) * 100;
 };
 
-console.log (mediaO(Filmes));
-console.log (qtdR(Filmes));
-console.log (porcB(Filmes));
+console.log(mediaO(Filmes));
+console.log(qtdR(Filmes));
+console.log(porcB(Filmes));

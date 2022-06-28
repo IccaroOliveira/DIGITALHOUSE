@@ -1,11 +1,11 @@
 let a = ["Desodorante", "Sabonete", "Chocolate", "Carne", "Frango"]
 
 console.log("O comando Join junta os elementos de um array usando um separador que definirmos.")
-let compras1 = a.join ()
+let compras1 = a.join()
 console.log(a)
 
 console.log("O comando Pop elimina o último elemento de um array.")
-let compras2 = a.pop ()
+let compras2 = a.pop()
 console.log(a)
 
 a.push("Final")
