@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,100;1,300;1,400&display=swap" rel="stylesheet">
+    
+    <title>Aula 02</title>
+</head>
+<body>
+    <header class="topo">
+        <img src="/imgs/CTD.jpg" alt="CTD" />
+        <h1>Pedra, Papel, Tesoura</h1>        
+        <img src="/imgs/dh.png" alt="DH" />        
+    </header>
+   <div class="container"> 
+        <div class="game">            
+            <div class="placar">
+                <P> PLACAR</P>
+                <p>VOCÊ 0 X 0 PC</p>
+            </div>
+            <div class="botoesUser">
+                <button type="button" onclick="jogada(1)" id="pedra" class="botaoUser"></button>
+                <button type="button" onclick="jogada(2)" id="papel" class="botaoUser"></button>
+                <button type="button" onclick="jogada(3)" id="tesoura" class="botaoUser"></button>
+            </div>
+            <div class="escolhas">
+                <div class="escolhauser botaoUser"></div>
+                <p>X</p>
+                <div class="escolhapc botaoUser"></div>
+            </div>
+        </div>
+   </div>
+</body>
+<script src="./index.js"></script>
+</html>

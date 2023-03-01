@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,100;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Checkpoint1</title>
+  </head>
+  <body>
+    <header class="topo">
+      <img src="/checkpoint1/img/CTD.jpg" alt="CTD" />
+      <h1>Checkpoint - Crie seu Card!</h1>
+      <img src="/checkpoint1/img/dh.png" alt="DH" />
+    </header>
+    <div class="form">
+      <form class="formulario" method="post">
+        <p></p>
+
+        <div class="field">
+          <label for="titulo">Titulo:</label>
+          <input
+            class="campo"
+            type="text"
+            id="titulo"
+            name="titulo"
+            placeholder=""
+            required
+          />
+        </div>
+        <div class="field">
+          <label for="url">URL da imagem:</label>
+          <input
+            class="campo"
+            type="text"
+            id="url"
+            name="url"
+            placeholder=""
+            required
+          />
+        </div>
+        <div class="field">
+          <label for="descricao">Descrição:</label>
+          <textarea class="campo" name="descricao" id="descricao"></textarea>
+        </div>
+
+        <div class="botoes">
+          <input
+            type="submit"
+            id="enviar"
+            class="botao-input"
+            name="acao"
+            value="Enviar"
+          />
+          <input type="reset" class="botao-input" name="acao" value="Limpar" />
+        </div>
+      </form>
+    </div>
+    <div class="container"></div>
+    <footer id="sobreNos" class="footer__master">
+      <div class="container__footer">
+        <section class="alunos">
+          <div class="aluno">
+            <p class="title__footer">Aderson Costa</p>
+            <div class="contato">
+              <a href="https://github.com/Adersoncc" target="_blank">
+                <img src="/frontend2/checkpoint1/img/git.svg" alt="git" />
+              </a>
+              <a href="https://www.linkedin.com/in/adersoncc/" target="_blank">
+                <img
+                  src="/frontend2/checkpoint1/img/linkedin.svg"
+                  alt="linkedin"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="aluno">
+            <p class="title__footer">Darlei</p>
+            <div class="contato">
+              <a href="https://github.com/Rashield" target="_blank">
+                <img src="/frontend2/checkpoint1/img/git.svg" alt="git" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/darlei-feix-2292b7216/"
+                target="_blank"
+              >
+                <img
+                  src="/frontend2/checkpoint1/img/linkedin.svg"
+                  alt="linkedin"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="aluno">
+            <p class="title__footer">Iccaro Oliveira</p>
+            <div class="contato">
+              <a href="https://github.com/iccarooliveira/" target="_blank">
+                <img src="/frontend2/checkpoint1/img/git.svg" alt="git" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/iccaro-oliveira-98950a208/"
+                target="_blank"
+              >
+                <img
+                  src="/frontend2/checkpoint1/img/linkedin.svg"
+                  alt="linkedin"
+                />
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section class="desenvolvido">
+          <p class="title__footer">Checkpoint 1 desenvolvido em 2022</p>
+        </section>
+      </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/cd63745c98.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/frontend2/checkpoint1/js/scripts.js" defer></script>
+  </body>
+</html>
