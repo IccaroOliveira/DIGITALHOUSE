@@ -1,0 +1,18 @@
+---
+- name: "Playbook para criar securityGoup & EC2"
+  hosts: localhost
+  gather_facts: yes
+
+  vars:
+    keipair_name: <seu-nome>-digitalhouse
+    my_vpc_id: vpc-0f80a10b21922c3d2
+    subnet_id: rtb-0e7219372182705d9
+    my_ami_id: ami-04b3c23ec8efcc2d6
+    ansible_python_interpreter: /usr/bin/python3
+    AWS_access_key: "<esta-no-csv-baixado>"
+    AWS_secret_key: "<esta-no-csv-baixado>"
+
+  tasks:
+    - name: "Criar o SecurityGroup WEB"
+    
+    -name: "Criar a EC2"

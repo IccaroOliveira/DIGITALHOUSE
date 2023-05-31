@@ -1,0 +1,15 @@
+---
+ - name: "Mover arquivo"
+   gather_facts: true
+   hosts: localhost
+
+   tasks:
+    - name: "Copiar o arquivo dados.txt para o /tmp"
+      ansible.builtin.copy:
+        src: dados.txt
+        dest: /tmp
+    
+    - name: "Zip o dados"
+      archive:
+        path: /tmp/dados.txt
+        format: zip
